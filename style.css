@@ -1,0 +1,136 @@
+
+/* header */
+
+header {
+    height: 100vh;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-image: url("header-cake.jpg");
+    position: relative;
+}
+header article {
+    position: absolute;
+    width: 500px;
+    top: 250px;
+    right: 100px;
+}
+
+header article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    height: 50px;
+    background-color: rgba(163, 100, 0, 0.3);
+    position: relative;
+}
+
+header nav ul {
+    position: absolute;
+    right: 20px;
+    top: -10px;
+}
+
+header nav ul li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+
+header nav .logo {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+/* main */
+
+.cake {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+
+#bloge {
+    clear: both;
+}
+
+article h2 {
+    text-align: center;
+}
+
+.cakes {
+float: left; 
+width: 20%;
+text-align: center;
+padding: 50px;
+margin-left: 45px;
+margin-right: 45px;
+}
+
+#contact {
+    clear: both;
+    position: relative;
+}
+
+
+
+
+#contact .right {
+    float: right;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+
+#contact .right li {
+list-style: none;
+float: left;
+padding: 5px;
+}
+
+#contact .right li:nth-child(3) {
+clear: both;
+}
+
+.left {
+    clear: both;
+    list-style: none;
+}
+
+button {
+    position: fixed;
+    right: 50%;
+    z-index: 3;
+    bottom: 80px;;
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    background-color: gray;
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+footer a {
+    position: absolute;
+    left: 40px;
+    bottom: 15px;
+}
+
+footer p {
+    float: left;
+    position: absolute;
+    right: 50%;
+    bottom: 0px;
+}
